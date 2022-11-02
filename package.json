@@ -1,7 +1,7 @@
 {
   "name": "vue-combonents",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.0.44",
   "type": "module",
   "main": "dist/vue-combonents.cjs.js",
   "module": "dist/vue-combonents.es.js",
