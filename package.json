@@ -1,16 +1,12 @@
 {
   "name": "vue-combonents",
   "private": false,
-  "version": "0.0.44",
+  "version": "0.1.0",
   "type": "module",
   "main": "dist/vue-combonents.cjs.js",
   "module": "dist/vue-combonents.es.js",
   "files": [
     "dist"
-  ],
-  "sideEffects": [
-    "*.css",
-    "*.scss"
   ],
   "scripts": {
     "dev": "vite",
@@ -18,15 +14,16 @@
     "build:styles": "postcss src/tailwind.css -o dist/index.css",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "vue": "^3.2.41"
-  },
   "devDependencies": {
     "@vitejs/plugin-vue": "^3.2.0",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.18",
     "postcss-cli": "^10.0.0",
     "tailwindcss": "^3.2.1",
-    "vite": "^3.2.0"
+    "vite": "^3.2.0",
+    "vue": "^3.2.41"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.41"
   }
 }

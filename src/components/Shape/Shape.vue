@@ -1,14 +1,17 @@
 <template>
   <div
     v-if="isLoading"
-    class="bg-gray-200 animate-pulse w-full h-full dark:bg-gray-600"/>
+    tabindex="0"
+    role="progressbar"
+    class="w-full h-full bg-gray-200 animate-pulse dark:bg-gray-600">
+  </div>
 </template>
 
 <script setup>
 defineProps({
   isLoading: {
     type: Boolean,
-    default: false
+    default: true
   }
 })
 </script>
