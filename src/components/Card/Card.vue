@@ -1,7 +1,6 @@
 <template>
   <div
     v-if="isLoading"
-    tabindex="0"
     role="progressbar"
     class="flex w-full p-2 rounded-md bg-gray-100 animate-pulse dark:bg-gray-600">
     <div class=" flex-none h-20 w-20 rounded-md bg-gray-300 dark:bg-gray-400"/>
